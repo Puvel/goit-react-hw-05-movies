@@ -43,8 +43,11 @@ const App = () => {
     <Routes>
       <Route path="/goit-react-hw-05-movies/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path="movies" element={<MoviesPage />} />
-        <Route path="movies/:movieId" element={<MovieDetailsPage />}>
+        <Route path="goit-react-hw-05-movies/movies" element={<MoviesPage />} />
+        <Route
+          path="goit-react-hw-05-movies/movies/:movieId"
+          element={<MovieDetailsPage />}
+        >
           <Route path="cast" element={<Cast />} />
           <Route path="reviews" element={<Reviews />} />
         </Route>

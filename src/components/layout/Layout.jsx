@@ -18,7 +18,7 @@ export const Layout = () => (
         </li>
         <li>
           <NavLink
-            to="/movies"
+            to="/goit-react-hw-05-movies/movies"
             className={({ isActive }) =>
               isActive ? css.navigationLinkActive : css.navigationLink
             }
