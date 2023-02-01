@@ -1,0 +1,19 @@
+.actorsList {
+  display: grid;
+  padding: 15px;
+  max-width: calc(100% - 50px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  list-style: none;
+  margin: 0 auto;
+}
+.actorInfoList {
+  list-style: none;
+}
+.actorImage {
+  width: 100%;
+  height: auto;
+  min-height: 348px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,13 @@
+.reviewsList {
+  padding: 15px;
+  list-style: none;
+}
+
+.reviewsItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.reviewsDefault {
+  padding-top: 15px;
+  padding-left: 15px;
+}

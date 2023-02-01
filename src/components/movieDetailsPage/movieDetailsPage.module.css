@@ -1,0 +1,57 @@
+.toBackBtn {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.filmWrap {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.filmImageWrap {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.filmImage {
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.filmDetailsList {
+  list-style: none;
+}
+
+.filmDetailsItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.genresList {
+  list-style: none;
+  display: flex;
+}
+
+.genresItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.additionalWrap {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.additionalLinks {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.additionalLink,
+.additionalLink:visited {
+  color: black;
+  font-weight: 600;
+}
+.additionalLinkActive {
+  color: rgb(174, 13, 13);
+  font-weight: 700;
+}

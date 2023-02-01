@@ -1,0 +1,30 @@
+.moviesList {
+  display: grid;
+  padding: 15px;
+  max-width: calc(100vw - 50px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  list-style: none;
+  margin: 0 auto;
+}
+.movieLink {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.movieLink:hover {
+  text-decoration: underline;
+}
+
+.movieImage {
+  width: 100%;
+  height: auto;
+  min-height: 348px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.movieTitle {
+  color: black;
+}

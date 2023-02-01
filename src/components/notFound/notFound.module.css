@@ -1,0 +1,12 @@
+.notFoundWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundText,
+.notFoundIcon {
+  font-size: 48px;
+  font-weight: 600;
+}
